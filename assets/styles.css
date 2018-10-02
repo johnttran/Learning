@@ -1,5 +1,5 @@
 body {
-    background-color: #efeee7;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -19,33 +19,81 @@ h1 {
 
 h2 {
     font-size: 25px;
+    padding: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
 }
 
 a {
-    color: #d21034;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-#main-bio,
-#contact-info,
-#bio-image {
-    float: left;
+    color: #fff;
 }
 
 #main-bio {
-    width: 70%;
+    background-color: #eee;
+    clear: both;
+    overflow: auto;
+    margin-top: 6vw;
+    width: 100%;
 }
 
 #contact-info {
-    width: 30%;
+    margin-bottom: 2vw;
+    background-color: #eee;
+}
+
+#email {
+    background-color: #666;
+    color: #ffffff;
+    width: 31.3%;
+    float: left;
+    padding: 1vw;
+    text-align: center;
+}
+
+#github {
+    background-color: #888;
+    color: #ffffff;
+    width: 31.3%;
+    float: left;
+    padding: 1vw;
+    text-align: center;
+}
+
+#portfolio {
+    background-color: #666;
+    color: #ffffff;
+    width: 31.3%;
+    float: left;
+    padding: 1vw;
+    text-align: center;
 }
 
 #bio-image {
-    padding-right: 20px;
-    width: 200px;
-    height: 200px;
+    margin: 20px;
+    width: 33%;
+    height: 33%;
+    background-color: #fff;
+    float: left;
+    margin-left: 2vw;
+}
+
+#name {
+    background-color: #63a3da;
+    padding: 1vw;
+    text-align: center;
+}
+
+#about-me {
+    text-align: center;
+    /* padding: 2vw; */
+    margin: 1vw;
+}
+
+footer {
+    background-color: #ccc;
+
 }
